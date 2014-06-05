@@ -1,3 +1,7 @@
-This project was developed using WampServer and code editors including Adobe Dreamweaver and Eclipse.
+This project was developed in HTML, CSS, PHP and JavaScript using WampServer as the local esting server and code editors including Adobe Dreamweaver and Eclipse.
 
-To install it, simply add the folder "project" to an appropriate folder on a local or live server.
+To install it:
+- add the folder "project" to an appropriate folder on a local or live server.
+- create a database and insert the login credentials in the file "common.php" under the "includes" folder.
+- use the file db.sql to populate the database with sample data.
+Note: Unless the appropriate privileges have been changed, you will need to remove the SQL DROP statement to allow the data to be processed.
